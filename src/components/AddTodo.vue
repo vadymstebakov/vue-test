@@ -18,7 +18,7 @@
 					const newTodo = {
 						id: Date.now(),
 						title: this.title,
-						switched: false
+						completed: false
 					};
 					console.log(newTodo);
 					this.$emit('add-todo', newTodo);

@@ -4,8 +4,8 @@
 			<TodoItem 
 				v-for="(todo, i) of todoArr"
 				:key="todo.title"
-				v-bind:todo="todo"
-				v-bind:index="i"
+				:todo="todo"
+				:index="i"
 				@remove-todo="removeTodo"
 			/>
 		</ul>
